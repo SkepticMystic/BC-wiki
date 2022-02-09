@@ -48,7 +48,7 @@ const config = {
             type: "doc",
             docId: "Home",
             position: "left",
-            label: "Tutorial",
+            label: "Docs",
           },
           {
             href: "https://github.com/SkepticMystic/breadcrumbs",
@@ -69,7 +69,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Home",
                 to: "/docs/Home",
               },
             ],
