@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+---
+
+# Home
+
 Welcome to the Breadcrumbs wiki! Here you can find more detailed explanations of the various functions of Breadcrumbs.
 
 The Breadcrumbs plugin gives you a way to visualise a custom-built hierarchy in your Obsidian vault.
