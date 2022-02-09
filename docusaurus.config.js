@@ -8,8 +8,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Breadcrumbs",
   tagline: "Flexible hierarchies in Obsidian.md",
-  url: "https://skepticmystic.github.io",
-  baseUrl: "BC-wiki/",
+  url: "https://breadcrumbs-wiki.onrender.com",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
