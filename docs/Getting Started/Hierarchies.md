@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 Breadcrumbs supports multiple, separate hierarchies.
 
 This means that you can have more than one structure in your vault, distinct from the others.

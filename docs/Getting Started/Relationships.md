@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 Breadcrumbs works by reading the manually created relationships in your vault.
 I'm going to use the terms `parents`, `siblings` and `children` to refer to these relations, but you can call them whatever you want in your vault.
 

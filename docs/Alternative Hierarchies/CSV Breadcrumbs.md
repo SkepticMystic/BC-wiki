@@ -4,7 +4,7 @@ This pairs well with [MetadataFrame](https://github.com/SkepticMystic/metadatafr
 
 ## How to Use
 
-- You give it the path to a CSV file in your vault (See the [settings tab options](https://github.com/SkepticMystic/breadcrumbs/wiki/Settings#CSV-Breadcrumb-Paths)).
+- You give it the path to a CSV file in your vault (See the [settings tab options](/docs/Settings#CSV-Breadcrumb-Paths)).
 
 ![](https://i.imgur.com/qbTs5Ph.png)
 

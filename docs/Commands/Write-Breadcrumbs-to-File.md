@@ -4,4 +4,4 @@ There is a command to write all implied links to ALL files, but you have to enab
 
 This feature can be used to create an _almost_ working [[Hierarchy Notes]]
 
-Read about the options [here](https://github.com/SkepticMystic/breadcrumbs/wiki/Settings#Write-Breadcrumbs-to-File)
+Read about the options [here](/docs/Settings#Write-Breadcrumbs-to-File)

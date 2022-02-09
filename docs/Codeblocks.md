@@ -17,7 +17,7 @@ Basically, we need to tell the codeblock what to show, and what options to use.
 
 ### `type`
 
-For now, the only type to use is a `tree`. This shows the same information as [Create Local Index](https://github.com/SkepticMystic/breadcrumbs/wiki/Create-Index#local-index) or the [Down View](https://github.com/SkepticMystic/breadcrumbs/wiki/Views#down-view), but in the current note.
+For now, the only type to use is a `tree`. This shows the same information as [Create Local Index](/docs/Getting Started/Views.md#local-index), but in the current note.
 
 ![](https://imgur.com/9NLedZ1.png)
 

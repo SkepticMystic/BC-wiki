@@ -15,11 +15,9 @@ These are broken down into:
 
 Here is where you set the names you will use to create the various [[relationships|Relationships---Basics]] in your vault.
 
-Read more about hierarchies [here](https://github.com/SkepticMystic/breadcrumbs/wiki/Hierarchies)
+Read more about hierarchies [here](/docs/Getting Started/Hierarchies)
 
 ## Hierarchy Notes
-
-Read about [Hierarchy Notes](https://github.com/SkepticMystic/breadcrumbs/wiki/Alternative-Hierarchies#Hierarchy-Notes)
 
 ### Hierarchy Note Names
 
@@ -27,7 +25,7 @@ A comma-separated list of markdown note names where you keep your hierarchy note
 
 ### Hierarchy Note Up Field Name
 
-The default field name to use for the `up` [direction](https://github.com/SkepticMystic/breadcrumbs/wiki/Relationships-Basics#directions).
+The default field name to use for the `up` [direction](/docs/Getting Started/Relationships#directions).
 
 You can also manually specify a different up field name to use by putting that field name before the link:
 
@@ -42,7 +40,7 @@ You can also manually specify a different up field name to use by putting that f
 
 The file path of a csv files with breadcrumbs information.
 
-Read more about this feature [here](https://github.com/SkepticMystic/breadcrumbs/wiki/Alternative-Hierarchies#CSV-Breadcrumbs)
+Read more about this feature [here](/docs/Alternative Hierarchies/Alternative Hierarchies#CSV-Breadcrumbs)
 
 ### Refresh Index on Note Change
 
@@ -168,7 +166,7 @@ Should the breadcrumbs trail adjust its width to the readable line length, or us
 
 ## Write Breadcrumbs to File
 
-Read about this feature [here](https://github.com/SkepticMystic/breadcrumbs/wiki/Write-Breadcrumbs-to-File)
+Read about this feature [here](/docs/Write-Breadcrumbs-to-File)
 
 ### Only write certain fields to the file
 
@@ -184,7 +182,7 @@ This command attempts to update ALL files with implied breadcrumbs pointing to t
 
 ## Visualisation Modal
 
-Options for the [Visualisation View](https://github.com/SkepticMystic/breadcrumbs/wiki/Views#visualisation-view). The available settings can also be found there.
+Options for the [Visualisation View](/docs/Views#visualisation-view). The available settings can also be found there.
 
 ## Create Index
 
