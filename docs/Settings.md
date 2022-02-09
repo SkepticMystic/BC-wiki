@@ -166,7 +166,7 @@ Should the breadcrumbs trail adjust its width to the readable line length, or us
 
 ## Write Breadcrumbs to File
 
-Read about this feature [here](/docs/Write-Breadcrumbs-to-File)
+Read about this feature [here](/docs/Write Breadcrumbs to File)
 
 ### Only write certain fields to the file
 
@@ -182,7 +182,7 @@ This command attempts to update ALL files with implied breadcrumbs pointing to t
 
 ## Visualisation Modal
 
-Options for the [Visualisation View](/docs/Views#visualisation-view). The available settings can also be found there.
+Options for the [Visualisation View](/docs/Views#Visualisation View). The available settings can also be found there.
 
 ## Create Index
 
