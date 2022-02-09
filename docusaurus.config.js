@@ -6,10 +6,10 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  url: "https://skepticmystic.github.io/BC-wiki",
-  baseUrl: "/",
+  title: "Breadcrumbs",
+  tagline: "Flexible hierarchies in Obsidian.md",
+  url: "https://skepticmystic.github.io",
+  baseUrl: "/BC-wiki",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -25,14 +25,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/SkepticMystic/breadcrumbs",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/SkepticMystic/breadcrumbs",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -45,10 +43,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "Breadcrumbs",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/bread-slice-solid.svg",
         },
         items: [
           {
@@ -57,10 +55,14 @@ const config = {
             position: "left",
             label: "Tutorial",
           },
-          { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
+            href: "https://github.com/SkepticMystic/breadcrumbs",
+            label: "Plugin",
+            position: "right",
+          },
+          {
+            href: "https://github.com/SkepticMystic/BC-wiki",
+            label: "Edit Docs",
             position: "right",
           },
         ],
@@ -78,23 +80,6 @@ const config = {
             ],
           },
           {
-            title: "Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-            ],
-          },
-          {
             title: "More",
             items: [
               {
@@ -103,12 +88,11 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Breadcrumbs Wiki. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
