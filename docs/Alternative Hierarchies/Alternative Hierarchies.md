@@ -12,7 +12,7 @@ Go to a note you want to act as the index, and add `BC-folder-note: fieldName` t
 
 ## Tag Notes
 
-Similarly to [Folder Notes](Alternative%20Hierarchies.md#folder-notes), you can use your existing _tag_ structure to set up hierarchies.
+Similarly to [[#Folder Notes]], you can use your existing _tag_ structure to set up hierarchies.
 
 Choose the note you'd like to act as the index, and add `BC-tag-note: #Tag` to the note's metadata. This will take all _other_ notes with that tag, and have them point upwards to that tag note.
 
@@ -32,7 +32,7 @@ A link-note takes all the links leaving it, and adds them to the hierarchy using
 
 A traverse-note is declared using `BC-traverse-note: fieldName`.
 
-A traverse-note does the same thing as a [Link Note](Alternative%20Hierarchies.md#link-notes), but it keeps going.
+A traverse-note does the same thing as a [[#Link Note]], but it keeps going.
 It adds the links of the current note to the graph using `fieldName`, but it also adds the links leaving those notes, and the links leaving _those_ notes, until the notes have no links leaving them.
 
 ![](https://imgur.com/dBy92HF.gif)
