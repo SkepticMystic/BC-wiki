@@ -9,7 +9,7 @@ const config = {
   title: "Breadcrumbs",
   tagline: "Flexible hierarchies in Obsidian.md",
   url: "https://skepticmystic.github.io",
-  baseUrl: "/BC-wiki",
+  baseUrl: "BC-wiki/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
