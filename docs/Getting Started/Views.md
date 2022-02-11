@@ -127,7 +127,7 @@ If it is _not_ checked, you will only see items that _don't_ match the regex
 
 ## Down View
 
-The Down View shows the results of [Create Local Index](docs/Commands/Create-Index#local-index) for the currently active note.
+The Down View shows the results of [Create Local Index](/docs/Commands/Create-Index#local-index) for the currently active note.
 
 ![](https://imgur.com/ZEJyEQ4.png)
 
