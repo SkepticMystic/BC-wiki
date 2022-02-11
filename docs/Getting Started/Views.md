@@ -35,6 +35,25 @@ If you have more than one [[hierarchy|Hierarchies]] in your settings, the list/m
 
 This view shows a list of the next and previous notes, from the current note's perspective (3).
 
+## Juggl View
+
+![](https://i.imgur.com/roOYVhl.png)
+
+If you have the [Juggl plugin](https://github.com/HEmile/juggl) installed, the Juggl view will provide an alternative to the Trail and Grid views. You can enable it in the settings under Views -> Trail/Grid/Juggl -> Views to show (activate the third option).
+
+![](https://i.imgur.com/0Imhrgu.png)
+
+The up and down arrows allow you to choose between the up and down graphs. The minus and plus signs allow you to filter the depth that the graph will display.
+
+You can style the graph using [all Juggls styling features](https://juggl.io/Features/Styling/Styling).
+One particular option that might be useful is to remove the edge labels. This can be done by going to the Juggl settings, clicking on "Open graph.css in default editor", and then adding
+
+```css
+edge {
+  label: ;
+}
+```
+
 ## Stats View
 
 This view will open automatically on the right side leaf, with an "Info" icon.
@@ -56,6 +75,8 @@ If you click on that cell, it will copy the list to your clipboard
 This view can be opened by clicking the Dice icon on the left ribbon labelled "Breadcrumbs Visualisation".
 
 It will open a modal with various settings at the top, and a space below for the visualisation.
+
+If you want more options than given in the Visualisation view, it is recommended to use the [Juggl plugin](https://juggl.io/Juggl) which will also [render all edges in your Breadcrumbs graph](https://juggl.io/Features/Breadcrumbs+integration).
 
 ### Settings
 
@@ -106,7 +127,7 @@ If it is _not_ checked, you will only see items that _don't_ match the regex
 
 ## Down View
 
-The Down View shows the results of [Create Local Index](/docs/Commands/Create-Index#local-index) for the currently active note.
+The Down View shows the results of [Create Local Index](docs/Commands/Create-Index#local-index) for the currently active note.
 
 ![](https://imgur.com/ZEJyEQ4.png)
 

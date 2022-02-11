@@ -12,7 +12,7 @@ Go to a note you want to act as the index, and add `BC-folder-note: fieldName` t
 
 ## Tag Notes
 
-Similarly to [[#Folder Notes]], you can use your existing _tag_ structure to set up hierarchies.
+Similarly to [Folder Notes](Alternative%20Hierarchies.md#folder-notes), you can use your existing _tag_ structure to set up hierarchies.
 
 Choose the note you'd like to act as the index, and add `BC-tag-note: #Tag` to the note's metadata. This will take all _other_ notes with that tag, and have them point upwards to that tag note.
 
@@ -32,7 +32,7 @@ A link-note takes all the links leaving it, and adds them to the hierarchy using
 
 A traverse-note is declared using `BC-traverse-note: fieldName`.
 
-A traverse-note does the same thing as a [[#Link Note]], but it keeps going.
+A traverse-note does the same thing as a [Link Note](Alternative%20Hierarchies.md#link-notes), but it keeps going.
 It adds the links of the current note to the graph using `fieldName`, but it also adds the links leaving those notes, and the links leaving _those_ notes, until the notes have no links leaving them.
 
 ![](https://imgur.com/dBy92HF.gif)
@@ -44,6 +44,29 @@ A regex note is declared using `BC-regex-note: /regex/flags`.
 Any note name in your entire vault that matches the regex will be added to the Breadcrumbs graph using the field provided in `BC-regex-note-field: field`, or the default field under `Settings > Alternative Hierarchies > Regex Notes > Default Field`, or the first field in your hierarchies as a last resort.
 
 ![](https://imgur.com/qaqFUU8.png)
+
+## Dataview Notes
+
+A _Dataview Note_ allows you to run any valid [Dataview `from` query](https://blacksmithgu.github.io/obsidian-dataview/query/sources/), and add Breadcrumbs to all notes that match the query.
+
+The query must be wrapped in quotes, and folder names must be wrapped in **double** quotes.
+Therefore, to avoid confusing Yaml, you need to wrap the entire query in single quotes, so that folders can be wrapped in double quotes.
+
+The query is passed directly into the Dataview API, so you can troubleshoot it by running `app.plugins.plugins.dataview.api.pages(query: string)` in the Obsidian console
+
+![](https://cdn.discordapp.com/attachments/929513881041248266/936973322980302848/unknown.png)
+
+## Date Notes
+
+Enable _Date Notes_ under `Settings > Alternative Hierarchies > Date Notes`. You also need to provide the format of your daily note names in **Luxon** format (which is different to Moment's syntax). Be sure to checkout [the docs](https://moment.github.io/luxon/#/formatting?id=table-of-tokens) to find the right syntax.
+
+Once enabled, Breadcrumbs will try to link all your daily notes together using the field provided (`next`, by default).
+
+This means you don't have to manually add any Breadcrumbs to your daily notes for them to be linked together.
+
+**Limitations**: Currently, _any_ note with a date in the name will be considered a daily note. I'll try find a way around this.
+
+![](https://cdn.discordapp.com/attachments/929513881041248266/936995669619654676/unknown.png)
 
 ## Hierarchy Notes
 
@@ -154,7 +177,7 @@ This pairs well with [MetadataFrame](https://github.com/SkepticMystic/metadatafr
 
 ### How to Use
 
-- You give it the path to a CSV file in your vault (See the [settings tab options](/docs/Settings#CSV-Breadcrumb-Paths)).
+- You give it the path to a CSV file in your vault (See the [settings tab options](docs/Settings#CSV-Breadcrumb-Paths)).
 
 ![](https://i.imgur.com/qbTs5Ph.png)
 

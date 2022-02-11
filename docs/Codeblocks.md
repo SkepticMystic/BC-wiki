@@ -17,13 +17,17 @@ Basically, we need to tell the codeblock what to show, and what options to use.
 
 ### `type`
 
-For now, the only type to use is a `tree`. This shows the same information as [Create Local Index](/docs/Getting Started/Views.md#local-index), but in the current note.
+There are two visualization types. The first is `tree`. This shows the same information as [Create Local Index](docs/Commands/Create-Index#local-index) or the [Down View](docs/Getting Started/Views#down-view), but in the current note.
 
 ![](https://imgur.com/9NLedZ1.png)
 
+The second visualization type is `juggl`, which will use the [Juggl plugin](https://github.com/HEmile/juggl) to visualize the Breadcrumbs graph. You can use the same options here, in addition to Juggl-specific options listed [here](https://juggl.io/Features/Breadcrumbs+code+blocks).
+
+![](https://i.imgur.com/YwlXp4n.png)
+
 ### `dir`
 
-Use `dir: <direction>` to specify the direction of the tree.
+Use `dir: <direction>` to specify which of the 5 directions the tree should show.
 
 - `up`: Shows the parent of the current note.
 - `down`: Shows the children of the current note.
@@ -37,19 +41,37 @@ Use `title: false` to not show the title.
 
 ![](https://imgur.com/6597yiR.png)
 
+### `fields`
+
+Use `fields: parent, upper` to limit which fields get shown in the tree.
+
+**This feature has not been implemented yet, but this is the intended syntax**.
+
 ### `depth`
 
-Use `depth: <number>` to limit the depth of the tree.
+Use `depth: <number>-<number>` to limit the depth of the tree.
 
 Leave this line out to show the max depth.
 
 ![](https://imgur.com/gZgATS2.png)
+
+Use `depth: 2` or `depth: 2-` to show all notes with _atleast_ a depth of `2` (minimum is `1`).
+
+Use `depth: -2` to show all notes with a depth of _at most_ `2`.
+
+Use `depth: 2-4` to show all notes with a depth between `2` and `4` (inclusive).
 
 ### `flat`
 
 Use `flat: true` to flatten the results:
 
 ![](https://imgur.com/wFJ67VX.png)
+
+### `from`
+
+Use any of the following [Dataview Source fields](https://blacksmithgu.github.io/obsidian-dataview/query/sources/) to narrow down the results.
+
+Each note in the Breadcrumbs results will be checked to see it meets the criteria of the `from` query, and will be excluded, if not.
 
 ### `content`
 
