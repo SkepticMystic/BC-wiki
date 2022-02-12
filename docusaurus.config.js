@@ -38,7 +38,7 @@ const config = {
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
-        // ... Your options.
+        highlightSearchTermsOnTargetPage: true,
       },
     ],
   ],
