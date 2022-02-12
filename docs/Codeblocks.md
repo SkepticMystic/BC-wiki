@@ -17,7 +17,7 @@ Basically, we need to tell the codeblock what to show, and what options to use.
 
 ### `type`
 
-There are two visualization types. The first is `tree`. This shows the same information as [Create Local Index](/docs/Commands/Create-Index.md#local-index) or the [Down View](/docs/Getting Started/Views.md#down-view), but in the current note.
+There are two visualization types. The first is `tree`. This shows the same information as [Create Local Index](/docs/Commands/Create Index) or the [Down View](/docs/Getting Started/Views), but in the current note.
 
 ![](https://imgur.com/9NLedZ1.png)
 

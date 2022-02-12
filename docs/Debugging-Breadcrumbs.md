@@ -4,9 +4,9 @@ Don't let this stop you from posting a bug report, but it's possible the issue i
 
 ## Check your settings
 
-Breadcrumbs has alot of [settings](/docs/Settings.md). This allows for customisability, but can sometimes lead to Breadcrumbs not working as you intend.
+Breadcrumbs has alot of [settings](/docs/Settings). This allows for customisability, but can sometimes lead to Breadcrumbs not working as you intend.
 
-The most important settings to check are the [hierarchies](/docs/Getting Started/Hierarchies.md) settings, and the [[Settings#Hierarchy Note|Hierarchy Note]] settings.
+The most important settings to check are the [hierarchies](/docs/Getting Started/Hierarchies) settings, and the [[Settings#Hierarchy Note|Hierarchy Note]] settings.
 
 Make sure they're set up as you want. Please do ask me for help if something is unintuitve 🙂
 
@@ -30,7 +30,7 @@ It is also helpful if you click the link `VM123:456`. This will show you where t
 
 If you don't get any errors, then there are some more things you can check.
 
-The next step is to go into settings and enable [Super debug mode](/docs/Settings.md#super-debug-mode). With this turned on, you will get alot of messages logged to the console.
+The next step is to go into settings and enable [Super debug mode](/docs/Settings). With this turned on, you will get alot of messages logged to the console.
 
 Now, press Refresh Index, and open the console.
 
