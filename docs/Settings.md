@@ -182,7 +182,7 @@ This command attempts to update ALL files with implied breadcrumbs pointing to t
 
 ## Visualisation Modal
 
-Options for the [Visualisation View](/docs/Getting-Started/Views.md#Visualisation-View). The available settings can also be found there.
+Options for the [Visualisation View](/docs/Getting-Started/Views). The available settings can also be found there.
 
 ## Create Index
 
