@@ -5,16 +5,16 @@ sidebar_position: 2
 Breadcrumbs supports multiple, separate hierarchies.
 
 This means that you can have more than one structure in your vault, distinct from the others.
-Each structure by itself, follows the rules laid out in [[Relationships Basics]].
+Each structure by itself, follows the rules laid out in [Relationships](Relationships.md).
 
-To create your hierarchies, go to the [[settings]] tab, and open the first dropdown called "Hierarchies.
+To create your hierarchies, go to the [settings](../Settings.md) tab, and open the first dropdown called "Hierarchies.
 You will see something like this:
 
 ![](https://i.imgur.com/7B0poIi.png)
 
 Click the `+` button to add a new, empty hierarchy:
 
-In it, you can add in the field names you use to denote each [[direction|Relationships-Basics#directions]] in your vault. Open the dropdown to show the input boxes for each direction:
+In it, you can add in the field names you use to denote each [direction](Relationships.md) in your vault. Open the dropdown to show the input boxes for each direction:
 
 `↑: up, ↔: same, ↓: down, →: next, ←: prev`
 

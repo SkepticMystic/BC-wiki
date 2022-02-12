@@ -6,12 +6,12 @@ Each view has alternative visualisations.
 
 ## Trail/Grid View
 
-The trail view shows all the paths going up the `parent` tree.
+The trail view shows all the paths going up the `parent` tree.  
 There are two visualisations of these paths, the Path view (1), and the Grid view (2)
 
 ![](https://i.imgur.com/FbMLEys.png)
 
-You can show one or the other, both, or neither. You can change this in [[settings]]
+You can show one or the other, both, or neither. You can change this in [settings](../Settings.md).
 
 ## List/Matrix View
 
@@ -29,7 +29,7 @@ Both show the same information.
 
 ### Multiple Hierarchies
 
-If you have more than one [[hierarchy|Hierarchies]] in your settings, the list/matrix view will show each of them separately
+If you have more than one [hierarchies](Hierarchies.md) in your settings, the list/matrix view will show each of them separately
 
 ## Next/Previous View
 
@@ -99,12 +99,12 @@ Which relationship should be displayed?
 2. Sibling
 3. Child
 
-If you have multiple [[hierarchies|Hierarchies]], each of the ↑, →, and ↓ relations will be merged into one for the visualisation view.
+If you have multiple [hierarchies](Hierarchies.md), each of the ↑, →, and ↓ relations will be merged into one for the visualisation view.
 So if you have two hierarchies `↑: up →: ↓: down` and `↑: parent →: ↓: child`, then `up` and `parent` will be merged into one, and `down` and `child` will be merged into one.
 
 #### Close Implied
 
-Should the visualisation show the [[implied relation|Relationships Implied]]?
+Should the visualisation show the [implied relationships](Relationships.md)?
 If you chose the Parent relation, for example, should the visualisation fill in all implied parents, or only show real parents?
 
 #### No Unlinked

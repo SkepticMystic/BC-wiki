@@ -6,7 +6,7 @@ Don't let this stop you from posting a bug report, but it's possible the issue i
 
 Breadcrumbs has alot of [settings](/docs/Settings). This allows for customisability, but can sometimes lead to Breadcrumbs not working as you intend.
 
-The most important settings to check are the [hierarchies](/docs/Getting Started/Hierarchies) settings, and the [[Settings#Hierarchy Note|Hierarchy Note]] settings.
+The most important settings to check are the [hierarchies](/docs/Getting Started/Hierarchies) settings, and the [Hierarchy Note](Settings.md#hierarchy-notes) settings.
 
 Make sure they're set up as you want. Please do ask me for help if something is unintuitve 🙂
 

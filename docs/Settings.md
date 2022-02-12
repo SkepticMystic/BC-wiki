@@ -13,9 +13,9 @@ These are broken down into:
 
 ## Hierarchies
 
-Here is where you set the names you will use to create the various [[relationships|Relationships---Basics]] in your vault.
+Here is where you set the names you will use to create the various [relationships](Getting%20Started/Relationships.md) in your vault.
 
-Read more about hierarchies [here](/docs/Getting Started/Hierarchies)
+Read more about [hierarchies](/docs/Getting%20Started/Hierarchies.md)
 
 ## Hierarchy Notes
 
@@ -25,7 +25,7 @@ A comma-separated list of markdown note names where you keep your hierarchy note
 
 ### Hierarchy Note Up Field Name
 
-The default field name to use for the `up` [direction](/docs/Getting Started/Relationships#directions).
+The default field name to use for the `up` [direction](/docs/Getting%20Started/Relationships#directions).
 
 You can also manually specify a different up field name to use by putting that field name before the link:
 
@@ -40,7 +40,7 @@ You can also manually specify a different up field name to use by putting that f
 
 The file path of a csv files with breadcrumbs information.
 
-Read more about this feature [here](/docs/Alternative Hierarchies/Alternative Hierarchies#CSV-Breadcrumbs)
+Read more about this feature [here](/docs/Alternative%20Hierarchies/Alternative%20Hierarchies.md#CSV-Breadcrumbs)
 
 ### Refresh Index on Note Change
 
@@ -64,7 +64,7 @@ Enter an integer number of seconds to wait for the Dataview Index to load. The l
 
 ## Matrix/List View
 
-These settings apply to the [[Matrix/List View|Views#listmatrix-view]]
+These settings apply to the [matrix/list view](Getting%20Started/Views.md)
 
 ### Show Matrix or List view by default
 
@@ -118,7 +118,7 @@ Implied siblings are: 1) notes with the same parent, or 2) notes that are real s
 
 ## Trail/Grid View
 
-These settings apply to the [[Trail/Grid View|Views#trailgrid-view]]
+These settings apply to the [Trail/Grid View](Getting%20Started/Views.md)
 
 ### Show Breadcrumbs
 
@@ -186,7 +186,7 @@ Options for the [Visualisation View](/docs/Getting Started/Views). The available
 
 ## Create Index
 
-Settings for the [[Create Index]] functionality
+Settings for the [create index](Commands/Create%20Index.md) functionality
 
 ### Wikilink Brackets
 
