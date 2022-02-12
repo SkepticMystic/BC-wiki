@@ -10,7 +10,7 @@ const config = {
   tagline: "Flexible hierarchies in Obsidian.md",
   url: "https://breadcrumbs-wiki.onrender.com",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
   organizationName: "SkepticMystic", // Usually your GitHub org/user name.
