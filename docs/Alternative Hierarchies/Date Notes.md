@@ -6,6 +6,4 @@ Once enabled, Breadcrumbs will try to link all your daily notes together using t
 
 This means you don't have to manually add any Breadcrumbs to your daily notes for them to be linked together.
 
-**Limitations**: Currently, _any_ note with a date in the name will be considered a daily note. I'll try find a way around this.
-
 ![](https://cdn.discordapp.com/attachments/929513881041248266/936995669619654676/unknown.png)

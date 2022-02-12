@@ -1,6 +1,6 @@
 ## Tag Notes
 
-Similarly to [Folder Notes](Alternative%20Hierarchies.md#folder-notes), you can use your existing _tag_ structure to set up hierarchies.
+Similarly to [Folder Notes](Folder%20Notes.md), you can use your existing _tag_ structure to set up hierarchies.
 
 Choose the note you'd like to act as the index, and add `BC-tag-note: #Tag` to the note's metadata. This will take all _other_ notes with that tag, and have them point upwards to that tag note.
 
