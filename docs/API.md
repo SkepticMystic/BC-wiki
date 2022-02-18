@@ -4,3 +4,4 @@ You can read more about them on the [doc site](https://skepticmystic.github.io/b
 ## Plugins using the Breadcrumbs API
 
 - [Juggl](https://juggl.io/Features/Breadcrumbs+integration)
+- [Hierarchical graph](https://github.com/ooker777/obsidian-hierarchical-graph/blob/master/README.md) 
