@@ -6,7 +6,9 @@ Simply create a table-of-contents-like outline, and Breadcrumbs will treat it as
 To use this new feature, go to the "Hierarchy Notes" settings tab to tell Breadcrumbs:
 
 1. Which notes to look at, and
-2. Which type of ↑ relation to treat the items as.
+2. Which type of relation to treat the items as.
+
+From this point onwards the example will be used for up relation, but you can also use another kinds of relation  
 
 ### Example
 
