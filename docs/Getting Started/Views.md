@@ -7,29 +7,21 @@ Each view has alternative visualisations.
 ## Trail/Grid View
 
 The trail view shows all the paths going up the `parent` tree.  
-There are two visualisations of these paths, the Path view (1), and the Grid view (2)
+There are two visualisations of these paths, the Path view (1), and the Grid view (2). Both show the **same** information, just in a different way.
 
 ![](https://i.imgur.com/FbMLEys.png)
 
 You can show one or the other, both, or neither. You can change this in [settings](../Settings.md).
 
-## List/Matrix View
+## Matrix View
 
 The second view, as seen in the right side of the top image, shows the immediate neighbours of the current note.
 
-You can switch between a Matrix view:
-
 ![](https://i.imgur.com/5GGJDeK.png)
-
-And a List view:
-
-![](https://i.imgur.com/idEOx7n.png)
-
-Both show the same information.
 
 ### Multiple Hierarchies
 
-If you have more than one [hierarchies](Hierarchies.md) in your settings, the list/matrix view will show each of them separately
+If you have more than one [hierarchies](Hierarchies.md) in your settings, the Matrix view will show each of them separately
 
 ## Next/Previous View
 
@@ -39,7 +31,7 @@ This view shows a list of the next and previous notes, from the current note's p
 
 ![](https://i.imgur.com/roOYVhl.png)
 
-If you have the [Juggl plugin](https://github.com/HEmile/juggl) installed, the Juggl view will provide an alternative to the Trail and Grid views. You can enable it in the settings under Views -> Trail/Grid/Juggl -> Views to show (activate the third option).
+If you have the [Juggl plugin](https://github.com/HEmile/juggl) installed, the Juggl view will provide an alternative to the Trail and Grid views. You can enable it in the settings under Views -> Trail/Grid/Juggl -> Views to show (activate the fourth option).
 
 ![](https://i.imgur.com/0Imhrgu.png)
 
@@ -53,22 +45,6 @@ edge {
   label: ;
 }
 ```
-
-## Stats View
-
-This view will open automatically on the right side leaf, with an "Info" icon.
-
-It shows various statistics about the different hierarchies used in your vault.
-
-![](https://i.imgur.com/Nms0Eqn.png)
-
-### Hovering over the cells
-
-If you hover your mouse over all of the numbers, you can see a list of the nodes/edges in that hierarchy, in that specific direction.
-
-![](https://i.imgur.com/8YHlVvj.png)
-
-If you click on that cell, it will copy the list to your clipboard
 
 ## Visualisation View
 
@@ -125,9 +101,9 @@ If `Include` is checked, you will only see items that match the regex.
 
 If it is _not_ checked, you will only see items that _don't_ match the regex
 
-## Down View
+## Tree View
 
-The Down View shows the results of [Create Local Index](/docs/Commands/Create-Index#local-index) for the currently active note.
+The Tree View shows the results of [Create Local Index](/docs/Commands/Create-Index#local-index) for the currently active note.
 
 ![](https://imgur.com/ZEJyEQ4.png)
 

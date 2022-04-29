@@ -11,7 +11,7 @@ The query is passed directly into the Dataview API, so you can troubleshoot it b
 
 For example, to automatically mark all notes link to note A as their parent, you can use:
 
-``` 
+```yaml
 ---
 BC-dataview-note: "[[A]]"
 BC-dataview-note-field: parent
