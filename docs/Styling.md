@@ -10,7 +10,7 @@ If you have the [Trail View](https://github.com/SkepticMystic/breadcrumbs/wiki/V
 
 ```css
 .BC-trail button.button-div {
-    display: none;
+  display: none;
 }
 ```
 
@@ -20,7 +20,7 @@ Using this snippet will make the markers in the [Matrix View](https://github.com
 
 ```css
 .BC-Matrix li {
-    list-style: disc
+  list-style: disc;
 }
 ```
 
@@ -30,10 +30,10 @@ This snippet will hide the numbering on items in the [Matrix View](https://githu
 
 ```css
 .BC-Matrix .BC-Matrix-square ol li::marker {
-    color: transparent;
+  color: transparent;
 }
 .BC-Matrix.BC-Matrix .BC-Matrix-square ol {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 ```
 
@@ -43,7 +43,7 @@ If you don't use any of the buttons in the [Matrix View](https://github.com/Skep
 
 ```css
 .workspace-leaf-content[data-type="BC-matrix"] .view-content button {
-    display: none;
+  display: none;
 }
 ```
 
@@ -53,7 +53,7 @@ If you have the setting `Treat Current Note as Implied Sibling` enabled, the cur
 
 ```css
 .BC-active-note div {
-    color: var(--text-normal);
+  color: var(--text-normal);
 }
 ```
 
@@ -61,7 +61,27 @@ If you have the setting `Treat Current Note as Implied Sibling` enabled, the cur
 
 ```css
 .BC-Matrix-square {
-    text-align: left;
-    border: 0;
+  text-align: left;
+  border: 0;
+}
+```
+
+### Make long links in the Matrix View overflow instead of wrapping to the next line
+
+```css
+.BC-Matrix .BC-Link {
+  width: 100%;
+  padding-right: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+```
+
+### Make long links in the Tree View wrap to the next line instead of overflowing
+
+```css
+.BC-downs div {
+  white-space: nowrap;
 }
 ```
